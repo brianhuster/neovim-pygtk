@@ -21,12 +21,15 @@ except ImportError:
 
 entry_points = {'console_scripts':  ['pynvim=neovim_gui.cli:main']}
 
-setup(name='neovim_gui',
-      version='0.1.3',
-      description='Gtk gui for neovim',
-      license='Apache',
-      packages=['neovim_gui'],
-      install_requires=install_requires,
-      ext_modules=ext_modules,
-      entry_points=entry_points,
-      zip_safe=False)
+setup(
+    name='neovim_gui',
+    version='0.1.3',
+    description='Gtk gui for neovim',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    license='Apache',
+    packages=['neovim_gui'],
+    install_requires=install_requires,
+    ext_modules=ext_modules,
+    entry_points=entry_points,
+    zip_safe=False)
