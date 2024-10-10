@@ -1,12 +1,6 @@
 """Common code for graphical and text UIs."""
-from neovim.compat import IS_PYTHON3
-
 
 __all__ = ('Screen',)
-
-
-if not IS_PYTHON3:
-    range = xrange  # NOQA
 
 
 class Cell(object):

@@ -19,15 +19,11 @@ try:
 except ImportError:
     pass
 
-entry_points = {'console_scripts':  ['pynvim=neovim_gui.cli:main'] }
+entry_points = {'console_scripts':  ['pynvim=neovim_gui.cli:main']}
 
 setup(name='neovim_gui',
       version='0.1.3',
       description='Gtk gui for neovim',
-      url='http://github.com/neovim/python-gui',
-      download_url='https://github.com/neovim/python-gui/archive/0.1.3.tar.gz',
-      author='Thiago de Arruda',
-      author_email='tpadilha84@gmail.com',
       license='Apache',
       packages=['neovim_gui'],
       install_requires=install_requires,
