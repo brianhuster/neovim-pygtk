@@ -22,8 +22,8 @@ except ImportError:
 entry_points = {'console_scripts':  ['nvimgtk=neovim_gui.cli:main']}
 
 setup(
-    name='neovim_gui',
-    version='0.1.3',
+    name='nvimgtk',
+    version='1.0.0',
     description='Gtk gui for neovim',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
