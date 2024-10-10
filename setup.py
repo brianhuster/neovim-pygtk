@@ -19,7 +19,7 @@ try:
 except ImportError:
     pass
 
-entry_points = {'console_scripts':  ['pynvim=neovim_gui.cli:main']}
+entry_points = {'console_scripts':  ['nvimgtk=neovim_gui.cli:main']}
 
 setup(
     name='neovim_gui',
