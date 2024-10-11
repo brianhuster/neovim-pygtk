@@ -1,7 +1,7 @@
 ## Python Gtk GUI for Neovim
 
 ### Description
-Python Gtk GUI for Neovim allows users to interact with Neovim through a graphical user interface (GUI) using the Gtk library.
+Python Gtk GUI for Neovim allows users to interact with Neovim through a graphical user interface (GUI) using the Gtk library. Fork of [neovim/python-gui](https://github.com/neovim/python-gui).
 
 ### Dependencies
 A [Neovim](https://github.com/neovim/neovim) that must be executable via `nvim` command
